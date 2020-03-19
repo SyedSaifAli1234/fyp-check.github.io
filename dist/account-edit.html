@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html class="bootstrap-layout">
-
-<head>
+<html class="bootstrap-layout"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,13 +18,13 @@
 
 </head>
 
-<body class="layout-container ls-top-navbar si-l3-md-up">
+<body class="layout-container ls-top-navbar si-l3-md-up breakpoint-768">
 
   <!-- Navbar -->
   <nav class="navbar navbar-dark bg-primary navbar-full navbar-fixed-top">
 
     <!-- Toggle sidebar -->
-    <button class="navbar-toggler pull-xs-left" type="button" data-toggle="sidebar" data-target="#sidebarLeft"><span class="material-icons">menu</span></button>
+    <button class="navbar-toggler pull-xs-left active" type="button" data-toggle="sidebar" data-target="#sidebarLeft"><span class="material-icons">menu</span></button>
 
     <!-- Brand -->
     <a href="index.html" class="navbar-brand"><i class="material-icons">school</i> LearnPlus</a>
@@ -80,7 +77,7 @@
   </nav>
   <!-- // END Navbar -->
   <!-- Sidebar -->
-  <div class="sidebar sidebar-left sidebar-light sidebar-visible-md-up si-si-3 ls-top-navbar-xs-up sidebar-transparent-md" id="sidebarLeft" data-scrollable>
+  <div class="sidebar sidebar-left sidebar-light sidebar-visible-md-up si-si-3 ls-top-navbar-xs-up sidebar-transparent-md sidebar-visible" id="sidebarLeft" data-scrollable="">
     <div class="sidebar-heading">APPLICATIONS</div>
     <ul class="sidebar-menu">
       <li class="sidebar-menu-item">
@@ -202,7 +199,7 @@
   <!-- // END Sidebar -->
 
   <!-- Content -->
-  <div class="layout-content" data-scrollable>
+  <div class="layout-content" data-scrollable="">
     <div class="container-fluid">
 
       <ol class="breadcrumb">
@@ -211,14 +208,7 @@
       </ol>
 
       <div class="card">
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active" href="#first" data-toggle="tab">Account</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#second" data-toggle="tab">Billing</a>
-          </li>
-        </ul>
+        
         <div class="p-a-2 tab-content">
           <div class="tab-pane active" id="first">
             <form action="#" class="form-horizontal">
@@ -239,50 +229,38 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="form-group row">
-                <label for="name" class="col-sm-3 form-control-label">Full Name</label>
-                <div class="col-sm-8">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <input type="text" class="form-control" placeholder="First Name" value="Adrian">
-                    </div>
-                    <div class="col-md-6">
-                      <input type="text" class="form-control" placeholder="Last Name" value="Demian">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="email" class="col-sm-3 form-control-label">Email</label>
-                <div class="col-sm-6 col-md-6">
-                  <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon1">
-								<i class="material-icons md-18 text-muted">mail</i>
-							</span>
-                    <input type="text" class="form-control" placeholder="Email Address" value="contact@mosaicpro.biz" disabled>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="website" class="col-sm-3 form-control-label">Website</label>
-                <div class="col-sm-6 col-md-4">
-                  <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon2">
-								<i class="material-icons md-18 text-muted">language</i>
-							</span>
-                    <input type="text" class="form-control" placeholder="www." value="learning.themekit.io">
-                  </div>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="password" class="col-sm-3 form-control-label">Change Password</label>
-                <div class="col-sm-6 col-md-4">
+              </div><div class="form-group row">
+                <label for="password" class="col-sm-3 form-control-label">Current password</label>
+                <div>
                   <div class="input-group">
                     <span class="input-group-addon" id="basic-addon3">
-								<i class="material-icons md-18 text-muted">lock</i>
-							</span>
+                <i class="material-icons md-18 text-muted">lock</i>
+              </span>
+                    <input type="text" class="form-control" placeholder="Enter current password">
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              <div class="form-group row">
+                <label for="password" class="col-sm-3 form-control-label">Change Password</label>
+                <div>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">
+                <i class="material-icons md-18 text-muted">lock</i>
+              </span>
                     <input type="text" class="form-control" placeholder="Enter new password">
+                  </div>
+                </div>
+              </div><div class="form-group row">
+                <label for="password" class="col-sm-3 form-control-label">Re-enter password</label>
+                <div>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">
+                <i class="material-icons md-18 text-muted">lock</i>
+              </span>
+                    <input type="text" class="form-control" placeholder="Re-enter new password">
                   </div>
                 </div>
               </div>
@@ -292,12 +270,7 @@
                     <div class="media-left">
                       <a href="#" class="btn btn-success btn-rounded">Save Changes</a>
                     </div>
-                    <div class="media-body media-middle p-l-1">
-                      <label class="c-input c-checkbox">
-                        <input type="checkbox" checked>
-                        <span class="c-indicator"></span> Subscribe to Newsletter
-                      </label>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -322,7 +295,7 @@
                 <label for="country" class="col-sm-3 form-control-label">Country</label>
                 <div class="col-sm-6 col-md-4">
                   <select class="c-select form-control">
-                    <option value="1" selected>USA</option>
+                    <option value="1" selected="">USA</option>
                     <option value="2">India</option>
                     <option value="3">United Kingdom</option>
                   </select>
@@ -402,6 +375,6 @@
   <!-- App JS -->
   <script src="assets/js/main.min.js"></script>
 
-</body>
 
-</html>
+
+</body></html>
