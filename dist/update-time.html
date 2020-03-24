@@ -1,8 +1,11 @@
-<html class="bootstrap-layout"><head>
+<!DOCTYPE html>
+<html class="bootstrap-layout">
+
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Manage FYPs</title>
+  <title>Update Meeting Schedule</title>
 
   <!-- Prevent the demo from appearing in search engines (REMOVE THIS) -->
   <meta name="robots" content="noindex">
@@ -18,7 +21,7 @@
 
 </head>
 
-<body class="layout-container ls-top-navbar si-l3-md-up breakpoint-768">
+<body class="layout-container ls-top-navbar si-l3-md-up">
 
   <!-- Navbar -->
   <nav class="navbar navbar-dark bg-primary navbar-full navbar-fixed-top">
@@ -76,7 +79,7 @@
       
       
       <li class="sidebar-menu-item">
-        <a class="sidebar-menu-button" href="manage-fyps.html">
+        <a class="sidebar-menu-button" href="instructor-courses.html">
           <i class="sidebar-menu-icon material-icons">poll</i>Manage FYPs &nbsp; &nbsp; &nbsp; &nbsp;</a>
       </li>
       
@@ -113,114 +116,59 @@
   <!-- // END Sidebar -->
 
   <!-- Content -->
-  <div class="layout-content" data-scrollable="">
+  <div class="layout-content" data-scrollable>
     <div class="container-fluid">
 
       <ol class="breadcrumb m-b-0">
-        <li><a href="index.html">Home</a></li>
-        <li class="active">Manage FYPs</li>
+        <li><a href="#">Home</a></li>
+        <li class="active">Payment History</li>
       </ol>
-      <h1 class="page-heading h2">Manage FYPs</h1>
-      <div class="card-columns">
-        <div class="card">
-          <div class="card-header bg-white">
-            <div class="media">
-              <div class="media-left media-middle">
-                <a href="instructor-course-edit.html">
-                  <img src="assets/images/vuejs.png" alt="Card image cap" width="100" class="img-rounded">
-                </a>
-              </div>
-              <div class="media-body media-middle">
-                <h4 class="card-title"><a href="instructor-course-edit.html">FYP Management System</a></h4>
-                <span class="label label-primary">Website</span>
-              </div>
-              <div class="media-right media-middle">
-                <a href="instructor-course-edit.html" class="btn btn-white">View</a>
-              </div>
+      <h4 class="page-heading">Payment History</h4>
+      <div class="card card-stats-danger">
+        <div class="card-block">
+          <div class="media">
+            <div class="media-body media-middle">
+              Please pay your amount due
+              <strong class="text-danger">$25.00</strong> with invoice <a href="#">#8331</a>
             </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-white">
-            <div class="media">
-              <div class="media-left media-middle">
-                <a href="instructor-course-edit.html">
-                  <img src="assets/images/nodejs.png" alt="Card image cap" width="100" class="img-rounded">
-                </a>
-              </div>
-              <div class="media-body media-middle">
-                <h4 class="card-title"><a href="instructor-course-edit.html">Hotel Management System</a></h4>
-                <span class="label label-primary">ERP</span>
-              </div>
-              <div class="media-right media-middle">
-                <a href="instructor-course-edit.html" class="btn btn-white">View</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-white">
-            <div class="media">
-              <div class="media-left media-middle">
-                <a href="instructor-course-edit.html">
-                  <img src="assets/images/github.png" alt="Card image cap" width="100" class="img-rounded">
-                </a>
-              </div>
-              <div class="media-body media-middle">
-                <h4 class="card-title">
-                  <a href="instructor-course-edit.html">Travelling Solution</a>
-                </h4>
-                <span class="label label-primary">Website, App</span>
-              </div>
-              <div class="media-right media-middle">
-                <a href="instructor-course-edit.html" class="btn btn-white">View</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header bg-white">
-            <div class="media">
-              <div class="media-left media-middle">
-                <a href="instructor-course-edit.html">
-                  <img src="assets/images/gulp.png" alt="Card image cap" width="100" class="img-rounded">
-                </a>
-              </div>
-              <div class="media-body media-middle">
-                <h4 class="card-title"><a href="instructor-course-edit.html">Facial Recognition Attendance System</a></h4>
-                <span class="label label-primary">Desktop, AI</span>
-              </div>
-              <div class="media-right media-middle">
-                <a href="instructor-course-edit.html" class="btn btn-white">View</a>
-              </div>
+            <div class="media-right">
+              <a href="pay.html" class="btn btn-success pull-xs-right btn-rounded">Pay Now</a>
             </div>
           </div>
         </div>
       </div>
-      <nav class="center">
-        <ul class="pagination pagination-sm">
-          <li class="page-item disabled">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">«</span>
-              <span class="sr-only">Previous</span>
-            </a>
-          </li>
-          <li class="page-item active">
-            <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          
-          
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">»</span>
-              <span class="sr-only">Next</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="card">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th class="center">Amount</th>
+              <th class="center">Status</th>
+              <th class="center">View</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>12th February, 2016</td>
+              <td class="center">$25</td>
+              <td class="center"><i class="material-icons text-success md-18">lens</i></td>
+              <td class="center"><a href="invoice.html">#12199</a></td>
+            </tr>
+            <tr>
+              <td>12th January, 2016</td>
+              <td class="center">$25</td>
+              <td class="center"><i class="material-icons text-danger md-18">lens</i></td>
+              <td class="center"><a href="invoice.html">#8331</a></td>
+            </tr>
+            <tr>
+              <td>12th December, 2015</td>
+              <td class="center">$25</td>
+              <td class="center"><i class="material-icons text-success md-18">lens</i></td>
+              <td class="center"><a href="invoice.html">#2421</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
     </div>
   </div>
@@ -238,6 +186,6 @@
   <!-- App JS -->
   <script src="assets/js/main.min.js"></script>
 
+</body>
 
-
-</body></html>
+</html>
