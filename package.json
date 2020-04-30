@@ -27,7 +27,7 @@
     "easy-countdown": "^2.1.0",
     "font-awesome": "^4.5.0",
     "fullcalendar": "^2.6.0",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.0",
     "jquery.fancytree": "^2.12.0",
     "jvectormap": "github:lazabogdan/jvectormap#master",
     "moment": "^2.11.2",
